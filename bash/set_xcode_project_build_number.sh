@@ -25,6 +25,9 @@ CONFIG_project_info_plist_path="${THIS_SCRIPT_DIR}/Info.plist"
 
 CONFIG_new_bundle_version="${BITRISE_BUILD_NUMBER}"
 
+echo " (i) Info.plist path: ${CONFIG_project_info_plist_path}"
+echo " (i) Build number (bundle version): ${CONFIG_new_bundle_version}"
+
 
 # ---------------------
 # --- Main:
